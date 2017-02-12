@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hlv_overscroll_glow.png",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\exploded-aar\\it.sephiroth.android.library.horizontallistview\\hlistview\\1.2.2\\res\\drawable-xhdpi\\hlv_overscroll_glow.png"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hlv_overscroll_edge.png",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\exploded-aar\\it.sephiroth.android.library.horizontallistview\\hlistview\\1.2.2\\res\\drawable-xhdpi\\hlv_overscroll_edge.png"
+    }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_file_failed" >ファイルをコピー失敗しました。</string>
+    <string name="connot_access_media">メディアのアクセス権限はありません。</string>
+    <string name="connot_access_usb">USBにアクセスできない。</string>
+    <string name="connot_access_sd">SDにアクセスできない。</string>
+    <string name="mail_sended_success">メールを送信しました。</string>
+    <string name="mail_smtp_server_access_failed">SMTPサーバは通信失敗しました。</string>
+    <string name="mail_smtp_server_setting_invalid">SMTPサーバの設定は無効です。</string>
+    <string name="mail_io_error">メールIOエラー</string>
+    <string name="mail_error">新規メール失敗しました。</string>
+    <string name="mail_auth_error">メール認証エラー</string>
+    <string name="mail_connection_error">メール通信エラー</string>
+    <string name="SMB_AUTH_FAIL" >名前とパスワードエラーのため、も一度確認ください。</string>
+    <string name="SMB_FAIL" >SMB異常。</string>
+    <string name="SMB_CONNECT_FAIL" >共有フォルダパスはアクセスできません。</string>
+    <string name="SMB_UPLOAD_FAIL" >SMBアップロード失敗しました。</string>
+    <string name="SMB_MKDIRS_FAIL" ></string>
+    <string name="SMB_CAN_NOT_WRITE" >SMBユーザは書かない。</string>
+    <string name="mail_server_full_error">メールサーバはメモリ不足。</string>
+    <string name="SMB_UPLOAD_SUCCESS" >SMBアップロード成功しました。</string>
+    <string name="SMB_CONNECT_SUCCESS">SMB接続成功。</string>
+    <string name="fail" >失敗</string>
+    <string name="success">成功</string>
+    <string name="reason">原因:</string>
+
+    <string name="printing">印刷中です。</string>
+    <string name="scanning">スキャン中です。</string>
+</resources>

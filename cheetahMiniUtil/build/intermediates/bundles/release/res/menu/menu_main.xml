@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_show_app_info"
+        android:showAsAction="never"
+        android:title="@string/txid_ppp_b_app_information" />
+    <item
+        android:id="@+id/menu_show_app_license"
+        android:showAsAction="never"
+        android:title="@string/txid_ppp_b_app_license" />
+</menu>

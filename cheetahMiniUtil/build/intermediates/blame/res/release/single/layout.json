@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\logo_list_adapter_item_view.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\logo_list_adapter_item_view.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dlg_no_count_down.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dlg_no_count_down.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dlg_count_down.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dlg_count_down.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\layout_zoom.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\layout_zoom.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_password.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dialog_password.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\layout_helper.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\layout_helper.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_alert.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dialog_alert.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\view_image_list.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\view_image_list.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_webview.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dialog_webview.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\layout_input.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\layout_input.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_connection.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dialog_connection.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_three_button.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dialog_three_button.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_prograss.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dialog_prograss.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_title_button.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\layout\\dialog_title_button.xml"
+    }
+]

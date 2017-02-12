@@ -1,0 +1,157 @@
+<resources>
+
+    <!-- Webdav appied woring(start) -->
+    <string name="txid_sending">Sending...</string>
+    <string name="txid_scan_g_running_original_num">Original(s)</string>
+    <string name="txid_scan_g_running_dest_num">Destination(s)</string>
+    <string name="txid_scan_g_running_remain_memory">Remaining Mem.</string>
+    <string name="txid_scan_g_running_scan">Scanning...</string>
+    <string name="button_stop">Stop</string>
+    <string name="dialog_state_connect">Connecting...</string>
+    <string name="dialog_loginmessage">Enter user name and password.</string>
+    <string name="dialog_sender_email_info_1">Set the next original(s), then press [Scan Next Original]. After scanning the last original press [Start Sending].</string>
+    <string name="dialog_sender_email_info_2">Waiting Time for Next Original\nSeconds Remaining: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Scan Next Original</string>
+    <string name="dialog_sender_email_btn_3">Start Sending</string>
+    <string name="dialog_sender_email_btn_4">Change Settings</string>
+    <string name="err_input">Enter %s.</string>
+    <string name="dialog_delete_info_1">Are you sure you want to delete %1$s\?\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">User Name: %s</string>
+    <string name="txid_login_password_notice">Password: %s</string>
+    <string name="dialog_delete_btn_1">Cancel</string>
+    <string name="dialog_delete_btn_2">Delete</string>
+    <string name="txid_stop1">Yes</string>
+    <string name="txid_stop2">No</string>
+    <!-- Webdav appied woring(end) -->
+
+
+    <!-- ID Card scan -->
+    <string name="SCAN_MEMORY_OVER">Memory is full, scanning was stopped.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">The resources required to scan are not ready.</string>
+    <string name="SCAN_INTERNAL_ERROR">An error has occurred.</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">Cannot scan the original. Please set it again correctly.</string>
+    <string name="SCAN_TIMEOUT">Because no action was performed for a certain period of time, scanning has been canceled.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">Scanning has been stopped.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Exceeded maximum size to send.</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Exceeded maximum pages to scan.</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">Scanning was stopped because you have reached the charging limit.</string>
+    <string name="SCAN_PREPARING_JOB_START">Starting up...</string>
+    <string name="SCAN_SCANNER_JAM">The original was misfed while being scanned.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Set the next original.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">To continue scanning, set the next original. </string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">Cannot detect the original.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">The data capacity has exceeded the maximum.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">Cannot scan the original with this orientation.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">Cannot scan because the original\'s size is too small.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">Cannot scan because the original\'s size is too big.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">The machine is preparing for preview. Please wait.</string>
+    <string name="SCAN_USER_REQUEST">The user has stopped scanning. </string>
+    <string name="job_stop_fail">Failed to stop scanning.</string>
+    <string name="job_start_fail">Failed to start scanning.</string>
+    <string name="job_end_fail">Failed to finish scanning. Press ［Cancel].</string>
+    <string name="job_continue_fail">Failed to continue scanning. Press　［Cancel］.</string>
+    <string name="job_cancel_fail">Failed to cancel scanning.</string>
+    <string name="error_login_failed">Authorization has failed.</string>
+    <string name="error_failed_to_start">Failed to start.</string>
+    <string name="error_not_input_authentication">There is no information for authentication.</string>
+    <string name="error_not_authorized">You have no privileges to use this function. </string>
+    <string name="error_system_busy">The system is busy. </string>
+    <string name="scan_fail">Scanning has failed. </string>
+    <string name="error_permission_denied">You do not have the privileges to use this. </string>
+    <string name="error_path_no_exist">Cannot find the specified folder.</string>
+    <string name="dialog_sender_protocol_type">Protocol Type:</string>
+    <string name="dialog_sender_path">Folder Path:</string>
+    <string name="dialog_sender_name">Log in User\'s Name:</string>
+    <string name="dialog_password">Password</string>
+    <string name="txid_scmn_b_012">Send</string>
+    <string name="txid_scan_g_running_print">Printing...</string>
+    <string name="txid_scmn_f_user_code">User Code</string>
+    <string name="txid_scmn_f_user_code_tip_1">Enter user code, then press [OK].</string>
+    <string name="txid_scmn_f_user_code_tip_2">User code is not correct. Please re-enter.</string>
+    <string name="txid_scmn_f_user_code_tip_3">User code is denied. Please re-enter.</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_logout">Logout</string>
+    <string name="bt_next">Next</string>
+    <string name="bt_back">Back</string>
+    <string name="txid_scmn_f_user_code_tip_4">The user code entered is not registered in the Address Book. Do you want to register it\?</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">OK</string>
+    <string name="dialog_contain_character">A file name cannot contain any of the following characters:</string>
+    <string name="dialog_print_count_not_in_range">The printing quantity is not between %1$s to %2$s.</string>
+    <string name="dialog_domain_wrong">The domain name can only contain the numbers 0 to 9 and letters A to Z.</string>
+    <string name="preview_stop_message">Are you sure you want to delete all images\?</string>
+    <string name="txid_ppp_b_app_information">About the Application</string>
+    <string name="txid_ppp_g_app_information_ver_label">Version:</string>
+    <string name="txid_ppp_g_app_license_ver_label">License:</string>
+    <string name="txid_ppp_b_app_information_show_oss">OSS License Information</string>
+    <string name="txid_scmn_d_device_not_supported">The charge unit that has been connected cannot be used.</string>
+    <string name="scan_button">scan</string>
+    <string name="print_button">print</string>
+    <string name="print_fail">Print fail.</string>
+    <string name="txid_scan_d_count">%d</string>
+    <!-- print -->
+    <string name="PRINT_COVER_OPEN">PRINT_COVER_OPEN</string>
+    <string name="PRINT_MARKER_WASTE_ALMOST_FULL">PRINT_MARKER_WASTE_ALMOST_FULL</string>
+    <string name="PRINT_DEVELOPER_EMPTY">PRINT_DEVELOPER_EMPTY</string>
+    <string name="PRINT_DEVELOPER_LOW">PRINT_DEVELOPER_LOW</string>
+    <string name="PRINT_INPUT_TRAY_MISSING">PRINT_INPUT_TRAY_MISSING</string>
+    <string name="PRINT_MARKER_WASTE_FULL">PRINT_MARKER_WASTE_FULL</string>
+    <string name="PRINT_MEDIA_EMPTY">PRINT_MEDIA_EMPTY</string>
+    <string name="PRINT_MEDIA_JAM">PRINT_MEDIA_JAM</string>
+    <string name="PRINT_OTHER">PRINT_OTHER</string>
+    <string name="PRINT_OUTPUT_AREA_FULL">PRINT_OUTPUT_AREA_FULL</string>
+    <string name="PRINT_OUTPUT_TRAY_MISSING">PRINT_OUTPUT_TRAY_MISSING</string>
+    <string name="PRINT_PAUSED">PRINT_PAUSED</string>
+    <string name="PRINT_TONER_EMPTY">PRINT_TONER_EMPTY</string>
+    <string name="PRINT_TONER_LOW">PRINT_TONER_LOW</string>
+    <string name="PRINT_COMMUNICATION_LOG_FULL">PRINT_COMMUNICATION_LOG_FULL</string>
+    <string name="dlg_printing_message_printing_stopped">Dlg_printing_message_printing_stopped</string>
+
+    <string name="txid_print_b_top_tray_auto">Auto Paper Select</string>
+    <string name="txid_print_b_top_tray_tray1">Tray 1</string>
+    <string name="txid_print_b_top_tray_tray2">Tray 2</string>
+    <string name="txid_print_b_top_tray_tray3">Tray 3</string>
+    <string name="txid_print_b_top_tray_tray4">Tray 4</string>
+    <string name="txid_print_b_top_tray_tray5">Tray 5</string>
+    <string name="txid_print_b_top_tray_tray6">Tray 6</string>
+    <string name="txid_print_b_top_tray_tray7">Tray 7</string>
+    <string name="txid_print_b_top_tray_tray8">Tray 8</string>
+    <string name="txid_print_b_top_tray_tray9">Tray 9</string>
+    <string name="txid_print_b_top_tray_tray10">Tray 10</string>
+    <string name="txid_print_b_top_tray_trayA">Tray A</string>
+    <string name="txid_print_b_top_tray_large_capacity">Large Capacity</string>
+    <string name="txid_print_b_top_tray_bypass">Bypass Tray</string>
+
+    <string name="txid_print_auto_color">Auto Color Select</string>
+    <string name="txid_print_monochrome">Black &amp; White</string>
+    <string name="txid_print_color">Full Color</string>
+    <string name="txid_print_red_and_black">Red And Black</string>
+    <string name="txid_print_two_color">Two Color</string>
+    <string name="txid_print_single_color">Single Color</string>
+
+    <string name="setting">Setting</string>
+    <string name="init">Please Wait.</string>
+	<string name="print_success">Print success</string>
+	<string name="txid_scmn_boxbtn_feed_readable">Readable Direction</string>
+    <string name="txid_scmn_boxbtn_feed_unreadable">90 Deg. Cnterclockwse.</string>
+    <string name="orientation">Original Orientation</string>
+	<string name="resolution">Resolution</string>
+	<string name="language">Language</string>
+	<string name="english">English</string>
+    <string name="suggest_size_landscape">建议图片尺寸：1650 x 150</string>
+    <string name="suggest_size_portrait">建议图片尺寸：150 x 2000</string>
+    <string name="suggest_size_line">建议图片尺寸：1500 x 120</string>
+    <string name="suggest_size_center">建议图片尺寸：300 x 300</string>
+    <string name="reset">reset</string>
+    <string name="Licence">Licence</string>
+    <string name="txid_ppp_b_app_license">License</string>
+
+    <!-- CountDown -->
+    <string name="txid_scan_t_count_down_title">Scanning</string>
+    <string name="txid_scan_t_count_down_text">Place the original within the %d sec., then press [Start].</string>
+    <string name="txid_scan_t_no_count_down_text">Set next original(s), then press [Start]. If none, press [Finish].</string>
+    <string name="txid_scan_b_count_down_start">Start</string>
+    <string name="txid_scan_b_count_down_finish">Finish</string>
+
+</resources>

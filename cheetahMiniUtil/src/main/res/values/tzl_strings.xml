@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_file_failed">Copy file failed.</string>
+    <string name="connot_access_media">Cannot access media.</string>
+    <string name="connot_access_usb">Cannot access USB.</string>
+    <string name="connot_access_sd">Cannot access SD.</string>
+    <string name="mail_sended_success">Mail send success</string>
+    <string name="mail_smtp_server_access_failed">Mail smtp server access failed</string>
+    <string name="mail_smtp_server_setting_invalid">Mail smtp server setting invalid</string>
+    <string name="mail_io_error">Mail io error</string>
+    <string name="mail_error">Create mail fail</string>
+    <string name="mail_auth_error">Bad username or password.</string>
+    <string name="mail_connection_error">mail connection error</string>
+    <string name="SMB_AUTH_FAIL">Bad username or password.</string>
+    <string name="SMB_FAIL">SMB exception.</string>
+    <string name="SMB_CONNECT_FAIL">Shared folder Path is not reachable.</string>
+    <string name="SMB_CONNECT_SUCCESS">SMB connect success</string>
+    <string name="SMB_UPLOAD_FAIL">SMB upload failed.</string>
+    <string name="SMB_MKDIRS_FAIL"></string>
+    <string name="SMB_CAN_NOT_WRITE">SMB user can not write.</string>
+    <string name="mail_server_full_error">Mail server memory full</string>
+    <string name="SMB_UPLOAD_SUCCESS">SMB upload success.</string>
+    <string name="fail">Failed</string>
+    <string name="success">Succeed</string>
+    <string name="reason">Reason:</string>
+    <string name="sender_mail_empty">sender_mail_empty</string>
+
+    <string name="printing">Printing</string>
+    <string name="scanning">Scanning</string>
+</resources>

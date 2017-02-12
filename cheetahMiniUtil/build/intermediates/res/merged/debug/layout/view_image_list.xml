@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="688px"
+        android:layout_height="405px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_title"
+            android:layout_width="650px"
+            android:layout_height="90px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <jp.co.ricoh.advop.mini.cheetahminiutil.view.StrokeTextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24px"
+                    app:outerColor="@color/green"
+                    app:innerColor="@color/white" />
+
+                <jp.co.ricoh.advop.mini.cheetahminiutil.view.StrokeTextView
+                    android:id="@+id/tv_path"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24px"
+                    app:outerColor="@color/green"
+                    app:innerColor="@color/white"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white" />
+
+            <jp.co.ricoh.advop.mini.cheetahminiutil.view.StrokeTextView
+                android:id="@+id/tv_information"
+                android:layout_width="match_parent"
+                android:layout_height="30px"
+                android:textStyle="bold"
+                android:textSize="18px"
+                app:outerColor="@color/green"
+                app:innerColor="@color/white" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/grid_view_logo_list"
+            android:layout_width="658px"
+            android:layout_height="240px"
+            android:horizontalSpacing="12dp"
+            android:listSelector="#00000000"
+            android:numColumns="4"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:scrollbarThumbVertical="@drawable/dialog_select_scrollbar"
+            android:verticalSpacing="40dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="799dp"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/selector_close_btn" />
+</FrameLayout>

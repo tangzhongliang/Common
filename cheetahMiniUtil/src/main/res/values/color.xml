@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="control_panel_bg">#d6d3c9</color>
+    <color name="preview_panel_bg">#e6e4e4</color>
+    <color name="drag_to_move_panel_bg">#ffffff</color>
+
+    <color name="btn_text_color_enable">#cccccc</color>
+    <color name="btn_text_color_normal">#000000</color>
+    <color name="btn_text_color_pressed">#4c4c4c</color>
+
+    <color name="scan_print_text_color_normal">#ffffff</color>
+    <color name="scan_print_text_color_pressed">#e5e5e5</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="dimgray">#696969</color>
+    <color name="gray">#888888</color>
+    <color name="lightgray">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="green">#0d971e</color>
+    <color name="spinner_color">#bfbfbf</color>
+    <color name="gold">#ffd700</color>
+    <color name="blue">#4276f2</color>
+    <color name="deepgray">#E4E4E4</color>
+    <color name="title">#B4B4B4</color>
+    <color name="backgroud">#CCCCCC</color>
+    <color name="centerColor">#555555</color>
+    <color name="Enter">#FEFEFE</color>
+    <!-- 黒 (不透明度80%) -->
+    <color name="black_transparency80">#50000000</color>
+
+    <!-- 黒 (不透明度70%) -->
+    <color name="black_transparency70">#B2000000</color>
+
+    <!-- 黒 (不透明度50%) -->
+    <color name="black_transparency50">#32000000</color>
+
+    <!-- 黒 (不透明度45%) -->
+    <color name="black_transparency45">#2d000000</color>
+    <!-- 白 (不透明度80%) -->
+    <color name="white_transparency80">#50ffffff</color>
+
+    <!-- 白 (不透明度50%) -->
+    <color name="white_transparency50">#32ffffff</color>
+
+    <!-- 白 (不透明度45%) -->
+    <color name="white_transparency45">#2dffffff</color>
+    
+    <!-- for oss -->
+    <color name="header_background_color1">#b4b4b4</color>
+    <color name="text_color_000000">#000000</color>
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 青枠ダイアログ用レイアウト -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1024px"
+    android:layout_height="520px" >
+
+    <!-- レイアウトをスライドさせる -->
+
+    <ViewFlipper
+        android:id="@+id/smartapp_bluedialog_container"
+        android:layout_width="1024px"
+        android:layout_height="520px"
+        android:layout_gravity="left"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="0px" >
+
+        <RelativeLayout
+            android:layout_width="960dp"
+            android:layout_height="497dp"
+            android:layout_gravity="center"
+            android:background="@drawable/win_blue_01" >
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="33dp"
+                android:background="@drawable/icon_dialog_01" />
+
+            <!-- エラーコード -->
+
+            <TextView
+                android:id="@+id/blue_dialog_error_code"
+                style="@style/shadow02"
+                android:layout_width="252px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="678px"
+                android:layout_marginTop="406px"
+                android:gravity="left"
+                android:textSize="16px"
+                android:visibility="invisible" />
+
+            <!-- ボタン1 -->
+
+
+            <!--
+                 <Button
+                android:id="@+id/blue_dialog_button1"
+                android:layout_width="262px"
+                android:layout_height="58px"
+                android:layout_marginLeft="62px"
+                android:layout_marginTop="428px"
+                android:background="@drawable/selector_dialog_button"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+            -->
+
+
+            <!-- ボタン2 -->
+
+
+            <!--
+                 <Button
+                android:id="@+id/blue_dialog_button2"
+                android:layout_width="262px"
+                android:layout_height="58px"
+                android:layout_marginLeft="373px"
+                android:layout_marginTop="428px"
+                android:background="@drawable/selector_dialog_button"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+            -->
+
+
+            <!-- ボタン3 -->
+
+            <Button
+                android:id="@+id/cd_blue_dialog_button3"
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="657dp"
+                android:layout_marginTop="417dp"
+                android:background="@drawable/selector_dialog_button"
+                android:gravity="center"
+                android:text="@string/bt_cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_32" />
+
+            <!-- ************ メッセージ領域  *************** -->
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="380dp"
+                android:layout_marginTop="20dp"
+                android:scrollbars="none"
+                >
+
+                <LinearLayout
+                    android:id="@+id/dialog_message_content"
+                    android:layout_width="800dp"
+                    android:layout_height="369dp"
+                    android:layout_marginLeft="117dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:lineSpacingExtra="11px"
+                    android:orientation="vertical" >
+
+                    <!-- ********** ガイダンス30dot用 ************ -->
+
+                    <TextView
+                        android:id="@+id/cd_blue_dialog_guidance30dot"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30px"
+                        android:gravity="left|center_vertical"
+                        android:lineSpacingExtra="11px"
+                        android:text="@string/dialog_state_connect"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_32"
+                        android:visibility="visible" />
+
+                    <!-- ********** 24dot用 ************ -->
+
+                    <LinearLayout
+                        android:id="@+id/blue_dialog_feedback24dot"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="34px"
+                        android:orientation="vertical"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </ViewFlipper>
+
+</FrameLayout>

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\slide_close_enter_1000.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\slide_close_enter_1000.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\in_from_right.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\in_from_right.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\slide_open_exit_1000.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\slide_open_exit_1000.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_slide_left_enter.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\fragment_slide_left_enter.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_slide_right_exit.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\fragment_slide_right_exit.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\slide_open_enter_1000.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\slide_open_enter_1000.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_slide_right_enter.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\fragment_slide_right_enter.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\out_to_left.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\out_to_left.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\slide_close_exit_1000.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\slide_close_exit_1000.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\out_to_right.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\out_to_right.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\in_from_left.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\in_from_left.xml"
+    },
+    {
+        "merged": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_slide_left_exit.xml",
+        "source": "C:\\work\\ricoh\\cheetahMiniUtil\\cheetahMiniUtil\\src\\main\\res\\animator\\fragment_slide_left_exit.xml"
+    }
+]

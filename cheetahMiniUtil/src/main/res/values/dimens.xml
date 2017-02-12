@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_18">18px</dimen>
+    <dimen name="font_20">20px</dimen>
+    <dimen name="font_24">24px</dimen>
+    <dimen name="font_28">28px</dimen>
+    <dimen name="font_30">30px</dimen>
+    <dimen name="font_32">32px</dimen>
+    <dimen name="title_font_size">22sp</dimen>
+    <dimen name="title_font_size_two_lines">22sp</dimen>
+    <dimen name="scan_btn_font_size">18sp</dimen>
+    <dimen name="scan_btn_font_size_two_lines">18sp</dimen>
+    <dimen name="btn_reset_undo_font_size">18sp</dimen>
+    <dimen name="title_text_left_margin">200dp</dimen>
+    <dimen name="title_icon_left_margin">32dp</dimen>
+    <dimen name="title_icon_top_margin">16dp</dimen>
+    <dimen name="preview_left_margin">214dp</dimen>
+
+    <dimen name="title_icon_left_margin_new">70dp</dimen>
+    <dimen name="title_icon_top_margin_new">8dp</dimen>
+</resources>

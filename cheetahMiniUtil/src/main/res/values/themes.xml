@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarSize">0dip</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    <style name="MyTheme.Fullscreen" parent="MyTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="MyTheme_Child" parent="MyTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/com_back_black01</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:editTextStyle">@android:style/Widget.EditText</item>
+        <item name="android:editTextBackground">@android:drawable/edit_text</item>
+    </style>
+    <style name="MyTheme_Child.Fullscreen" parent="MyTheme_Child">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="MyTheme_Dialog" parent="MyTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:editTextStyle">@android:style/Widget.EditText</item>
+        <item name="android:editTextBackground">@android:drawable/edit_text</item>
+    </style>
+    <style name="MyTheme_Dialog.Fullscreen" parent="MyTheme_Dialog">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
