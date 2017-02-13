@@ -1,5 +1,7 @@
 package jp.co.ricoh.advop.mini.cheetahminiutil.util;
 
+import android.content.pm.PackageManager;
+
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -21,14 +23,26 @@ public class Const {
     public final static String ALERT_DIALOG_APP_TYPE_PRINTER = "PRINTER";
 
     private final static String BASE_PATH = "/mnt/hdd/";
+    public static final String packageName = "de.shandschuh.sparserss";
     public final static String PATH_TMP_FOLDER = BASE_PATH
-            + CHolder.instance().getApplication().getPackageName() + "/tmp/";
-    public final static String PATH_PACKAGE_FOLDER = BASE_PATH
-            + CHolder.instance().getApplication().getPackageName() + "/";
-   
+            + packageName + "/tmp/";
+
+    private static String getPackageName() {
+        CHolder instance = CHolder.instance();
+        if (instance == null) {
+            return "tmp2";
+        } else {
+            return instance.getApplication().getPackageName();
+        }
+    }
+
+    public static String PATH_PACKAGE_FOLDER = BASE_PATH
+            + packageName + "/";
+
     public final static Map<ScanJobStateReason, Integer> SCAN_ERROR_MAP = new LinkedHashMap<ScanJobStateReason, Integer>();
     public final static Map<PrinterStateReason, Integer> PRINT_ERROR_MAP = new LinkedHashMap<PrinterStateReason, Integer>();
     public final static Map<String, Integer> JOB_ERROR_MAP = new HashMap<String, Integer>();
+
     static {
         PRINT_ERROR_MAP.put(PrinterStateReason.COVER_OPEN, R.string.PRINT_COVER_OPEN);
         PRINT_ERROR_MAP.put(PrinterStateReason.DEVELOPER_EMPTY, R.string.PRINT_DEVELOPER_EMPTY);
@@ -48,9 +62,9 @@ public class Const {
         //PRINT_ERROR_MAP.put(PrinterStateReason.STOPPED_PARTLY, R.string.PRINT_STOPPED_PARTLY);
         PRINT_ERROR_MAP.put(PrinterStateReason.TONER_EMPTY, R.string.PRINT_TONER_EMPTY);
         PRINT_ERROR_MAP.put(PrinterStateReason.TONER_LOW, R.string.PRINT_TONER_LOW);
-        PRINT_ERROR_MAP.put(PrinterStateReason.COMMUNICATION_LOG_FULL, R.string.PRINT_COMMUNICATION_LOG_FULL);        
+        PRINT_ERROR_MAP.put(PrinterStateReason.COMMUNICATION_LOG_FULL, R.string.PRINT_COMMUNICATION_LOG_FULL);
     }
-    
+
     static {
         SCAN_ERROR_MAP.put(ScanJobStateReason.MEMORY_OVER, R.string.SCAN_MEMORY_OVER);
         SCAN_ERROR_MAP.put(ScanJobStateReason.RESOURCES_ARE_NOT_READY, R.string.SCAN_RESOURCES_ARE_NOT_READY);
@@ -69,24 +83,24 @@ public class Const {
         SCAN_ERROR_MAP.put(ScanJobStateReason.NOT_SUITABLE_ORIGINAL_ORIENTATION, R.string.SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION);
         SCAN_ERROR_MAP.put(ScanJobStateReason.TOO_SMALL_SCAN_SIZE, R.string.SCAN_TOO_SMALL_SCAN_SIZE);
         SCAN_ERROR_MAP.put(ScanJobStateReason.WAIT_FOR_ORIGINAL_PREVIEW_OPERATION, R.string.SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION);
-        SCAN_ERROR_MAP.put(ScanJobStateReason.USER_REQUEST, R.string.SCAN_USER_REQUEST);        
+        SCAN_ERROR_MAP.put(ScanJobStateReason.USER_REQUEST, R.string.SCAN_USER_REQUEST);
     }
-    
+
     public final static Map<PrintJobStateReason, Integer> mJobReasonStringMap = new LinkedHashMap<PrintJobStateReason, Integer>() {
         {
-            put(PrintJobStateReason.COMPRESSION_ERROR,                 R.string.print_fail);
-            put(PrintJobStateReason.DOCUMENT_FORMAT_ERROR,             R.string.print_fail);
-            put(PrintJobStateReason.JOB_CANCELED_AT_DEVICE,            R.string.dlg_printing_message_printing_stopped);
-            put(PrintJobStateReason.RESOURCES_ARE_NOT_READY,           R.string.print_fail);
-            put(PrintJobStateReason.PERMISSION_DENIED,                 R.string.print_fail);
-            put(PrintJobStateReason.PRINT_VOLUME_LIMIT,                R.string.print_fail);
-            put(PrintJobStateReason.TIMEOUT,                           R.string.print_fail);
-            put(PrintJobStateReason.JOB_CANCELED_BY_USER,              R.string.dlg_printing_message_printing_stopped);
-            put(PrintJobStateReason.JOB_CANCELED_DURING_CREATING,      R.string.dlg_printing_message_printing_stopped);
-            put(PrintJobStateReason.PREPARING_JOB_START,               R.string.print_fail);
+            put(PrintJobStateReason.COMPRESSION_ERROR, R.string.print_fail);
+            put(PrintJobStateReason.DOCUMENT_FORMAT_ERROR, R.string.print_fail);
+            put(PrintJobStateReason.JOB_CANCELED_AT_DEVICE, R.string.dlg_printing_message_printing_stopped);
+            put(PrintJobStateReason.RESOURCES_ARE_NOT_READY, R.string.print_fail);
+            put(PrintJobStateReason.PERMISSION_DENIED, R.string.print_fail);
+            put(PrintJobStateReason.PRINT_VOLUME_LIMIT, R.string.print_fail);
+            put(PrintJobStateReason.TIMEOUT, R.string.print_fail);
+            put(PrintJobStateReason.JOB_CANCELED_BY_USER, R.string.dlg_printing_message_printing_stopped);
+            put(PrintJobStateReason.JOB_CANCELED_DURING_CREATING, R.string.dlg_printing_message_printing_stopped);
+            put(PrintJobStateReason.PREPARING_JOB_START, R.string.print_fail);
         }
     };
-    
+
     static {
         JOB_ERROR_MAP.put("error.login_failed", R.string.error_login_failed);
         JOB_ERROR_MAP.put("error.not_input_authentication", R.string.error_not_input_authentication);
@@ -95,6 +109,6 @@ public class Const {
         JOB_ERROR_MAP.put("error.permission_denied", R.string.error_permission_denied);
         JOB_ERROR_MAP.put("error.path_no_exist", R.string.error_path_no_exist);
         //JOB_ERROR_MAP.put("error.unsupported_job_setting", R.string.print_error_paper_size);
-    
+
     }
 }

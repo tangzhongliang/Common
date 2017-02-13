@@ -24,18 +24,23 @@ public class BaseTabActivity extends TabActivity implements ActivityInterface {
      * メインアクティビティ起動済みフラグ trueであれば、すでにMainActivityが起動済みです。 MainActivity running
      * flag If true, another Mainactivity instance is running.
      */
-    private ImplActivity implActivity;
+    private ImplActivity implActivity = new ImplActivity(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //LanguageUtil.setLanguage(this, CHolder.instance().getInitParameters().getAppLocale());
         super.onCreate(savedInstanceState);
-        setImplActivity(new ImplActivity(this));
+        if (implActivity == null)
+            throw new RuntimeException("implActivity can not be null");
         implActivity.onCreate(savedInstanceState);
     }
 
-    private void setImplActivity(ImplActivity implActivity) {
+    public void setImplActivity(ImplActivity implActivity) {
         this.implActivity = implActivity;
+    }
+
+    public ImplActivity getImplActivity() {
+        return implActivity;
     }
 
     @Override
@@ -82,7 +87,7 @@ public class BaseTabActivity extends TabActivity implements ActivityInterface {
     }
 
     public void hideSoftKeyboard() {
-       implActivity.hideSoftKeyboard();
+        implActivity.hideSoftKeyboard();
     }
 
     public void setEnableBack() {
@@ -91,7 +96,7 @@ public class BaseTabActivity extends TabActivity implements ActivityInterface {
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         boolean b = implActivity.onKeyDown(keyCode, event);
-        return b?b:super.onKeyDown(keyCode,event);
+        return b ? b : super.onKeyDown(keyCode, event);
     }
 
     @Override
@@ -123,6 +128,6 @@ public class BaseTabActivity extends TabActivity implements ActivityInterface {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         boolean b = implActivity.onTouchEvent(event);
-        return b?b:super.onTouchEvent(event);
+        return b ? b : super.onTouchEvent(event);
     }
 }

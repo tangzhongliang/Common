@@ -10,6 +10,7 @@ import jp.co.ricoh.advop.mini.cheetahminiutil.util.LogC;
 
 import android.app.Activity;
 import android.app.Application;
+import android.content.SharedPreferences;
 import android.os.Handler;
 
 import java.util.ResourceBundle;
@@ -38,6 +39,10 @@ public class CHolder {
         instance = this;
 //        isRestarting = false;
 //        isRestarting4Language = false;
+    }
+
+    public CHolder() {
+
     }
 
     public void init() {
@@ -93,6 +98,10 @@ public class CHolder {
 
     public boolean isForeground() {
         return isForeground;
+    }
+
+    public SharedPreferences getSharedPreferences(String name, int mode) {
+        return getApplication().getSharedPreferences(name, mode);
     }
 
     public void setForeground(boolean isForeground) {

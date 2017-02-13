@@ -51,7 +51,7 @@ public class ImplActivity implements ActivityInterface {
 
     public boolean isMainAct = false;
     public boolean mMultipleRunning = false;
-    public boolean isEnable = true;
+    public boolean enableBack = true;
 
     public ImplActivity(Activity baseListActivity) {
         activity = baseListActivity;
@@ -109,9 +109,8 @@ public class ImplActivity implements ActivityInterface {
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (event.getAction() == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_BACK) {
-            if (isEnable) {
+            if (enableBack) {
                 Buzzer.play();
-
             } else {
                 Buzzer.onBuzzer(Buzzer.BUZZER_NACK);
                 return true;
@@ -252,7 +251,10 @@ public class ImplActivity implements ActivityInterface {
         return false;
     }
 
+    public void setEnableBack(boolean b) {
+        enableBack = b;
+    }
     public void setEnableBack() {
-        isEnable = true;
+        enableBack = true;
     }
 }

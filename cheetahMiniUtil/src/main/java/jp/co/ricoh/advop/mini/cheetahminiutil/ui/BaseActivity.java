@@ -4,6 +4,7 @@ package jp.co.ricoh.advop.mini.cheetahminiutil.ui;
 import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,12 +15,19 @@ import android.view.MotionEvent;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
+import java.io.File;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.util.HashMap;
+
 import jp.co.ricoh.advop.mini.cheetahminiutil.application.BaseApplication;
 import jp.co.ricoh.advop.mini.cheetahminiutil.logic.CHolder;
 import jp.co.ricoh.advop.mini.cheetahminiutil.logic.LockManager;
 import jp.co.ricoh.advop.mini.cheetahminiutil.print.PrintManager;
 import jp.co.ricoh.advop.mini.cheetahminiutil.scan.ScanManager;
 import jp.co.ricoh.advop.mini.cheetahminiutil.util.CUIUtil;
+import jp.co.ricoh.advop.mini.cheetahminiutil.util.Const;
 import jp.co.ricoh.advop.mini.cheetahminiutil.util.LogC;
 
 

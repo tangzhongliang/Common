@@ -4,11 +4,17 @@
  */
 package jp.co.ricoh.advop.mini.cheetahminiutil.application;
 
+import java.io.File;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import jp.co.ricoh.advop.mini.cheetahminiutil.logic.CHolder;
 import jp.co.ricoh.advop.mini.cheetahminiutil.logic.InitParameters;
 import jp.co.ricoh.advop.mini.cheetahminiutil.logic.MediaInfo;
+import jp.co.ricoh.advop.mini.cheetahminiutil.model.ModelHelp;
 import jp.co.ricoh.advop.mini.cheetahminiutil.ssdk.function.common.SmartSDKApplication;
 import jp.co.ricoh.advop.mini.cheetahminiutil.util.CUtil;
 import jp.co.ricoh.advop.mini.cheetahminiutil.util.Const;
@@ -17,6 +23,7 @@ import jp.co.ricoh.advop.mini.cheetahminiutil.util.LogC;
 
 import android.content.BroadcastReceiver;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -221,5 +228,10 @@ abstract public class BaseApplication extends SmartSDKApplication {
 
     public int getTimeOfWaitingNextOriginal() {
         return 0;
+    }
+
+    @Override
+    public SharedPreferences getSharedPreferences(String name, int mode) {
+        return ModelHelp.getSharedPreferences(this, name, mode);
     }
 }
